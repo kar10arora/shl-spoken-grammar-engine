@@ -1,0 +1,47 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Sensitive API Keys & Config
+.env
+*.env
+*.pem
+*.key
+
+# Raw Audio Datasets & Heavy Media (Preserve GitHub repository size limits)
+shl-hiring-assessment-2026/
+Dataset_Final/
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System Files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary scratch & log files
+*.log
+scratch/
+tmp/
